@@ -1,0 +1,37 @@
+<div class="intro">
+    <p>
+    This module adds a little sugar to YUI3 to make simple easy YQL queries.
+    </p>
+</div>
+
+<h2>Description</h2>
+
+<p>This module adds a little sugar to YUI3 to make simple easy [http://developer.yahoo.com/yql/ YQL] queries.
+
+It supports:
+
+* Simple Queries
+* Community Tables
+* Error Handling
+* Timeout Handling
+* Custom Events</p>
+
+```
+YUI().use('gallery-yql', function(Y) {
+    //Using events
+    var q1 = new Y.yql('select * from github.user.info where (id = "davglass")');
+    q1.on('query', function(r) {
+        //Do something here.
+    });
+    q1.on('error', function(r) {
+        //Do something here.
+    });
+    //Or the callback approach
+    new Y.yql('select * from github.user.info where (id = "davglass")', function(r) {
+        //Do something here.
+        r.query; //The result
+        r.error; //The error message
+    });
+});
+```
+

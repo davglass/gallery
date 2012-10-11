@@ -1,0 +1,10 @@
+{
+    "name"       : "gallery-yql",
+    "displayName": "yql",
+    "description": "This module adds a little sugar to YUI3 to make simple easy YQL queries.",
+    "author"     : [ "Dav Glass <fake@fake.com>" ],
+
+    "tags": ["davglass","jsonp","query","sql","yql"],
+
+    "examples": []
+}

@@ -1,0 +1,61 @@
+{
+  "name": "gallery-yql",
+  "version": "gallery-2011.03.30-19-47",
+  "description": "This module adds a little sugar to YUI3 to make simple easy YQL queries.",
+  "author": "Dav Glass <fake@fake.com>",
+  "bugs": {
+    "url": "http://github.com/davglass/yui-yql/issues"
+  },
+  "homepage": "http://davglass.github.com/yui-yql/",
+  "licenses": [
+    {
+      "type": "YUI BSD",
+      "url": "http://developer.yahoo.com/yui/license.html"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davglass/yui3-gallery.git"
+  },
+  "keywords": [
+    "davglass",
+    "jsonp",
+    "query",
+    "sql",
+    "yql"
+  ],
+  "yui": {
+    "username": "davglass",
+    "github": "davglass",
+    "cla": true,
+    "module": {
+      "requires": [
+        "get",
+        "event-custom"
+      ],
+      "supersedes": [],
+      "optional": [],
+      "skinnable": false,
+      "version": "3.2.0",
+      "lang": "js",
+      "approved": true,
+      "deprecated": false,
+      "created": 1256220787,
+      "last-modified": 1284069960
+    },
+    "cdn": {
+      "buildtag": "gallery-2011.03.30-19-47",
+      "oncdn": 1301514489
+    },
+    "reports": {
+      "coverage": {},
+      "tests": {},
+      "ranking": {}
+    },
+    "files": {
+      "js": [
+        "yql.js"
+      ]
+    }
+  }
+}

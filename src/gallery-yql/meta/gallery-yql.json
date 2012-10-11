@@ -1,0 +1,11 @@
+{
+    "gallery-yql": {
+        "requires": [
+            "get",
+            "event-custom"
+        ],
+        "supersedes": [],
+        "optional": [],
+        "skinnable": false
+    }
+}
