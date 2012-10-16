@@ -1,0 +1,10 @@
+{
+    "name": "gallery-yql",
+    "builds": {
+        "gallery-yql": {
+            "jsfiles": [
+                "yql.js"
+            ]
+        }
+    }
+}
