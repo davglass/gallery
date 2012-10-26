@@ -1,0 +1,22 @@
+<div class="intro">
+    <p>
+    This module attempts to localize the CSS Reset to a specific node.
+    </p>
+</div>
+
+<h2>Description</h2>
+
+<p>This module attempts to localize the CSS Reset to a specific node.<br>
+<br>
+It scopes the rules found in the YUI reset.css file to the node that it's plugged into.<br>
+</p>
+
+```
+YUI().use('gallery-node-reset', function(Y) {
+
+    var node = Y.one('#demo');
+    node.plug(Y.Plugin.NodeReset);
+
+});
+```
+

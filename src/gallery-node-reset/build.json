@@ -1,0 +1,10 @@
+{
+    "name": "gallery-node-reset",
+    "builds": {
+        "gallery-node-reset": {
+            "jsfiles": [
+                "node-reset.js"
+            ]
+        }
+    }
+}

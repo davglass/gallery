@@ -1,0 +1,12 @@
+{
+    "gallery-node-reset": {
+        "requires": [
+            "node",
+            "base",
+            "stylesheet"
+        ],
+        "supersedes": [],
+        "optional": [],
+        "skinnable": false
+    }
+}

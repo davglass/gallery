@@ -1,0 +1,10 @@
+{
+    "name"       : "gallery-node-reset",
+    "displayName": "Gallery: node-reset",
+    "description": "This module attempts to localize the CSS Reset to a specific node.",
+    "author"     : [ "davglass" ],
+
+    "tags": [ "gallery" ],
+
+    "examples": []
+}
