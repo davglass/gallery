@@ -1,0 +1,10 @@
+{
+    "name"       : "gallerycss-newcss",
+    "displayName": "Gallery: gallerycss-newcss",
+    "description": "*Summary Goes Here*",
+    "author"     : [ "davglass" ],
+
+    "tags": [ "gallery" ],
+
+    "examples": []
+}
