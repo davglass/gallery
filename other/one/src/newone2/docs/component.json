@@ -1,0 +1,10 @@
+{
+    "name"       : "gallery-newone2",
+    "displayName": "Gallery: gallery-newone2",
+    "description": "*Summary Goes Here*",
+    "author"     : [ "davglass" ],
+
+    "tags": [ "gallery" ],
+
+    "examples": []
+}

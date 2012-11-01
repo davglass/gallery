@@ -1,0 +1,7 @@
+{
+    "gallery-newone2": {
+        "requires": [
+            "yui-base"
+        ]
+    }
+}
