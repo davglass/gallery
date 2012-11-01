@@ -1,0 +1,10 @@
+{
+    "name": "gallery-grover",
+    "builds": {
+        "gallery-grover": {
+            "jsfiles": [
+                "js/gallery-grover.js"
+            ]
+        }
+    }
+}

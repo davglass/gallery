@@ -1,0 +1,10 @@
+{
+    "name"       : "gallery-grover",
+    "displayName": "Gallery: gallery-grover",
+    "description": "*Summary Goes Here*",
+    "author"     : [ "davglass" ],
+
+    "tags": [ "gallery" ],
+
+    "examples": []
+}

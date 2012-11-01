@@ -1,0 +1,8 @@
+{
+    "gallery-grover": {
+        "requires": [
+            "widget"
+        ],
+        "skinnable": true
+    }
+}
