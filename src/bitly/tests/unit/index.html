@@ -10,10 +10,10 @@
 
 <script>
 YUI({
-    coverage: ['bitly'],
+    coverage: ['gallery-bitly'],
     filter: (window.location.search.match(/[?&]filter=([^&]+)/) || [])[1] || 'raw'
-}).use('test-console', 'test', 'module-tests', function(Y) {
-    
+}).use('gallery-bitly', 'test-console', 'test', 'module-tests', function(Y) {
+
     (new Y.Test.Console()).render('#logger');
 
     Y.Test.Runner.setName('gallery-bitly');
